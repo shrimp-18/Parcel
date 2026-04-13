@@ -60,6 +60,7 @@ position: absolute;
   top: 10%;
   left: 8%;
   transform: rotate(-8deg);
+  animation: float 4s ease-in-out infinite;
 }
 .floating-right1 {
   width: 600px;
@@ -67,6 +68,7 @@ position: absolute;
   top: 6%;
   right: 4%;
   transform: rotate(-8deg);
+  animation: float 4s ease-in-out infinite;
 
 }
 
@@ -76,6 +78,7 @@ position: absolute;
   bottom: -2%;
   right: -5%;
   transform: rotate(0deg);
+  animation: float 4s ease-in-out infinite;
 }
 .orph{
   width: 350px;
@@ -137,12 +140,17 @@ position: absolute;
   transform: translateY(1px) scale(0.98);
 }
 .hero {
-  height: 120vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   background-color:#FEFACB ;
+}
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-25px); }
+  100% { transform: translateY(0px); }
 }
 
 .container {
