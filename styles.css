@@ -10,6 +10,31 @@ body {
   background: #FEFACB;
   color: #000000;
 }
+.navbar{
+   display: flex;
+  gap: 40px;
+  padding: 15px 45px;
+  top: 5%;
+  left: 36%;
+position: absolute;
+  background-color: #ffd6e0; 
+  border-radius: 999px; 
+  align-items: center;
+  justify-content: center;
+  
+  
+  padding:20px 0  20px;
+}
+.navbar a{
+  font-family: Abril, serif;
+  text-decoration:none;
+  color:#FF3402;
+  font-size:32px;
+  letter-spacing:2px;
+  text-decoration: none;
+  font-weight: 500;
+  
+}
 
 .hero-img
 {
@@ -85,7 +110,8 @@ body {
   font-weight: 600;
   text-decoration: none;
   border-radius: 14px;
-  font-size: 1.2rem;   
+  font-size: 25px;   
+  letter-spacing: 2PX;
 
   transition: all 0.2s ease;
 }
