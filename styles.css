@@ -1,0 +1,214 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #FEFACB;
+  color: #000000;
+}
+
+.hero-img
+{
+ 
+  position: absolute;
+  width:1100px ;
+  height: auto;
+  left: 20%;
+  top: 17%;
+ 
+}
+.floating {
+  position: absolute;
+  width: 120px;
+  transition: transform 0.3s ease;
+  pointer-events: auto;
+}
+
+
+.floating-left {
+  width: 600px;
+  height: auto;
+  top: 10%;
+  left: 8%;
+  transform: rotate(-8deg);
+}
+.floating-right1 {
+  width: 600px;
+  height: auto;
+  top: 6%;
+  right: 4%;
+  transform: rotate(-8deg);
+
+}
+
+.floating-right {
+  width: 650px;
+  height: auto;
+  bottom: -2%;
+  right: -5%;
+  transform: rotate(0deg);
+}
+.orph{
+  width: 350px;
+  top: 0%;
+  left: 2%;
+}
+@font-face {
+  font-family: Abril;
+  src: url('fonts/Abril_Fatface/AbrilFatface-Regular.ttf');
+}
+@font-face {
+  font-family: Merri;
+  src: url('fonts/Merriweather-VariableFont_opsz\,wdth\,wght.ttf');
+}
+.floating-left:hover {
+  transform: rotate(3deg) scale(1.05);
+}
+.floating-right1:hover {
+  transform: rotate(3deg) scale(1.05);
+}
+
+
+.signup-btn {
+  position: absolute;
+  left: 46%;
+  top: 85%;
+  font-family: Abril;
+  
+  padding: 20px 60px;   
+  background: #FF3402;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 14px;
+  font-size: 1.2rem;   
+
+  transition: all 0.2s ease;
+}
+.narrow {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.description {
+  font-family: Merri;
+  font-size: 1.1rem;
+  color: #000000;
+  line-height: 2;
+}
+.signup-btn:hover {
+  background: #9DCFFD;
+  transform: translateY(-2px);
+}
+
+.signup-btn:active {
+  transform: translateY(1px) scale(0.98);
+}
+.hero {
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color:#FEFACB ;
+}
+
+.container {
+  max-width: 700px;
+}
+
+
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+
+
+
+
+
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+  font-family: Abril;
+  color: #FF3402;
+}
+
+ 
+
+
+
+.timeline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+
+  flex-wrap: nowrap;      
+  overflow-x: auto;       
+  padding-bottom: 10px;
+}
+
+.stage {
+  background: white;
+  padding: 20px 40px;
+  border-radius: 16px;
+  width: 300px;
+  height: 250PX;
+  text-align: left;
+  box-shadow: 0 10px 20px rgba(31, 27, 27, 0.05);
+  position: relative;
+  justify-content: center
+  min-width: 220px;  
+  flex-shrink: 0;     
+}
+.timeline::-webkit-scrollbar {
+  display: none;
+}
+
+.number {
+  display: inline-block;
+  background: #FF3402;
+  color: white;
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.stage h3 {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.stage p {
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.arrow {
+  font-size: 3rem;
+  color: #FF3402;
+}
+.hpw{
+  color: #FF3402;
+  font-family: Abril;
+  justify-content: center;
+  position: absolute;
+  left: 45%;
+  font-size: 30PX;
+}
